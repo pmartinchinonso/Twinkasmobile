@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="HOME" />
+
+
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_abouttwinkas"
+                android:icon="@mipmap/ic_menu_write"
+                android:title="About TwinKAS"/>
+            <item
+                android:id="@+id/nav_howitworks"
+                android:icon="@mipmap/ic_menu_threearrows"
+                android:title="How It Works"/>
+            <item
+                android:id="@+id/nav_ewallet"
+                android:icon="@mipmap/ic_menu_briefcase"
+                android:title="TwinKAS E-Wallet"
+                />
+        </menu>
+    </item>
+
+    <item android:title="More of Twinkas"
+          android:icon="@mipmap/ic_menu_moremenu">
+        <menu>
+            <item
+                android:id="@+id/nav_paid"
+                android:icon="@mipmap/ic_menu_paid"
+                android:title="PAID MEMBERS" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@mipmap/ic_menu_help"
+                android:title="FREQUENTLY ASKED Q" />
+            <item
+                android:id="@+id/nav_testimonies"
+                android:icon="@mipmap/trophy_cup_silhouette"
+                android:title="TESTIMONIES" />
+            <item
+                android:id="@+id/nav_twinkasblog"
+                android:icon="@mipmap/newspaper"
+                android:title="TWINKAS BLOG" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_ecommerce"
+                android:icon="@mipmap/ic_menu_ecommerce"
+                android:title="E - COMMERCE"/>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_signup"
+                android:icon="@mipmap/ic_menu_write"
+                android:title="JOIN US NOW"/>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@mipmap/ic_menu_login"
+                android:title="LOG IN"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@mipmap/ic_menu_mail"
+                android:title="CONTACT US"/>
+        </menu>
+    </item>
+
+
+
+</menu>
